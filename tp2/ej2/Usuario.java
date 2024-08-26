@@ -4,7 +4,7 @@ public class Usuario {
     private String nombre, mail, telefono;
     private boolean esAsistente;
     private int DNI;
-
+    
     
 
     public Usuario(String nombre, String mail, String telefono, boolean esAsistente, int dNI) {
@@ -14,7 +14,7 @@ public class Usuario {
         this.esAsistente = esAsistente;
         DNI = dNI;
     }
-    
+
     public String getNombre() {
         return nombre;
     }

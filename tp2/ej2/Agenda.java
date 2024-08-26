@@ -12,7 +12,7 @@ public class Agenda {
     public void addReunion(Reunion r){
         boolean hayReunion = false;
         for (Reunion reunion : reuniones) {
-            if(reunion.getFecha().equals(r.getFecha())){
+            if(reunion.getFecha() == (r.getFecha())){
                 System.out.println("Ya hay una reunion esa fecha");
                 hayReunion=true;
             }

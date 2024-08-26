@@ -1,7 +1,6 @@
 package tp1;
 import java.time.LocalDate;
-import java.time.Period;
-import java.time.Year;
+
 
 public class Persona{
     private String nombre, apellido, sexo;
