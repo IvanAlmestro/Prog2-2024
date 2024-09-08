@@ -6,7 +6,7 @@ public class Stock {
 
 
     public Stock() {
-        this.muebles = new ArrayList<>(muebles);
+        this.muebles = new ArrayList<Mueble>();
 
     }
 
@@ -33,7 +33,12 @@ public class Stock {
     }
 
     public void addMueble( Mueble mueble){
-        this.muebles.add(mueble);
+        if (mueble != null){
+            this.muebles.add(mueble);
+        }else{
+            System.out.println("el mueble es nulo");
+        }
+ 
     }
 
 }

@@ -5,6 +5,9 @@ public class Ejecutable {
    Mueble silla = new Mueble(100.0, 200, "azul", "Roble", 1000.0, "Silla", 0.35);
    stock1.addMueble(silla);
 
-   System.out.println(stock1.costoFabricacionStock(false));
+   System.out.println("");
+   System.out.println("El costo de fabricacion es: "+ stock1.costoFabricacionStock(false));
  }   
+
 }
+
