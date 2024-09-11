@@ -1,21 +1,20 @@
 package tp3.ej4;
 
-import java.time.LocalDate;
 
 public class Contacto {
     private String nombre, apellido, direccion, mail, ciudad, telefono;
-    private LocalDate fnac;
+
     private int edad;
 
     public Contacto(String nombre, String apellido, String direccion, String mail, String ciudad, String telefono,
-            LocalDate fnac, int edad) {
+            int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
         this.mail = mail;
         this.ciudad = ciudad;
         this.telefono = telefono;
-        this.fnac = fnac;
+
         this.edad = edad;
     }
 
@@ -67,13 +66,6 @@ public class Contacto {
         this.telefono = telefono;
     }
 
-    public LocalDate getFnac() {
-        return fnac;
-    }
-
-    public void setFnac(LocalDate fnac) {
-        this.fnac = fnac;
-    }
 
     //este metodo se tendria que hacer manualmente
     public int getEdad(){
@@ -89,6 +81,11 @@ public class Contacto {
         else{ 
             return false;
         }
+    }
+
+    public String toString(){
+        return " -nombre: " + nombre + 
+                " -apellido: " + apellido;
     }
     
 }

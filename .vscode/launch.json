@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp4.ej2.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp3.ej4.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
