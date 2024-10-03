@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "tp7.ej3.Main",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp7.ej3.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp4.ej3.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
             "name": "Ejecutable",
             "request": "launch",
             "mainClass": "tp4.ej2.Ejecutable",
