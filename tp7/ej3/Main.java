@@ -15,7 +15,7 @@ public class Main {
         CriterioNOT solInferiorA2 = new CriterioNOT(solSuperiorA2);
 
         CriterioAND palabraYSolSuperior = new CriterioAND(solSuperiorA2, palabra);
-        
+
         System.out.println("-");
        System.out.println(vivero.buscar(palabraYSolSuperior)); 
 

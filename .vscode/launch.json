@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp8.ej1.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "tp7.ej3.Main",
