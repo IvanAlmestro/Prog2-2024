@@ -44,7 +44,7 @@ public class Carpeta extends ElementoSA {
 
 
     public void addElementoSA(ElementoSA elem){
-
+        elementos.add(elem);
     }
     //Aca lo que pasa al tener dos listas distintas repito el codigo.
     //ademas nos podemos dar cuenta que los atributos se repiten.
