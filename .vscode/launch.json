@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Ejecutable",
             "request": "launch",
+            "mainClass": "tp9.ej1.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
             "mainClass": "tp8.ej1.Ejecutable",
             "projectName": "Programacion2_56465ef9"
         },
