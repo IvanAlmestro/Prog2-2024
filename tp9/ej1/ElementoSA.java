@@ -7,10 +7,10 @@ import tp9.ej1.filtros.filtro;
 public abstract class ElementoSA {
     
     private String nombre;
-    private LocalDate fechaCreacion;
-
+    protected LocalDate fechaCreacion;
+    protected LocalDate fechaModificacion;
     
-    public ElementoSA(String nombre, LocalDate fechaCreacion) {
+    public ElementoSA(String nombre, LocalDate fechaCreacion, LocalDate fechaMo) {
         this.nombre = nombre;
         this.fechaCreacion = fechaCreacion;
     }
@@ -19,6 +19,14 @@ public abstract class ElementoSA {
         return nombre;
     }
     
+    public LocalDate getFechaModificacion() {
+        return fechaModificacion;
+    }
+
+    public void setFechaModificacion(LocalDate fechaModificacion) {
+        this.fechaModificacion = fechaModificacion;
+    }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -28,6 +36,7 @@ public abstract class ElementoSA {
     public LocalDate getFechaCreacion() {
         return fechaCreacion;
     }
+    
 
     
     public abstract double getTamanio();

@@ -4,14 +4,14 @@ import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-import tp9.ej1.filtros.filtroFechaModificado;
+
 import tp9.ej1.filtros.filtroFechaCreacion;
 
 public class Ejecutable {
 
 public static void main(String[] args) {
-    Carpeta carpeta1 = new Carpeta("Docs", LocalDate.of(2000, 3, 23));
-    Carpeta carpeta2 = new Carpeta("Juegos", LocalDate.of(2003,3, 10));
+    Carpeta carpeta1 = new Carpeta("Docs", LocalDate.of(2000, 3, 23), null);
+    Carpeta carpeta2 = new Carpeta("Juegos", LocalDate.of(2003,3, 10), null);
     Link link1 = new Link("Facha", null);
     Archivo archivo = new Archivo("archivazo", null, null, 100);
     Archivo archivo2 = new Archivo("LOL", LocalDate.of(2001, 6, 14), LocalDate.of(2023, 1, 11), 2000);

@@ -4,13 +4,12 @@ import java.util.ArrayList;
 
 import tp9.ej1.filtros.filtro;
 public class Archivo extends ElementoSA{
-    private LocalDate fechaCreacion;
-    private LocalDate fechaModificacion;
+
     private double tamanio;
 
     
     public Archivo(String nombre, LocalDate fechaCreacion, LocalDate fechaModificacion, double tamanio) {
-        super(nombre, fechaCreacion);
+        super(nombre, fechaCreacion, fechaModificacion);
         this.fechaModificacion = fechaModificacion;
         this.tamanio = tamanio;
         this.fechaCreacion = LocalDate.now();

@@ -11,8 +11,8 @@ public class Carpeta extends ElementoSA {
     //private ArrayList<Carpeta> carpetas;
     //private ArrayList<Link> links;
 
-    public Carpeta(String nombre, LocalDate fechaCreacion) {
-        super(nombre, fechaCreacion);
+    public Carpeta(String nombre, LocalDate fechaCreacion, LocalDate fechaModificacion) {
+        super(nombre, fechaCreacion, fechaModificacion);
         elementos = new ArrayList<>();
 
     }

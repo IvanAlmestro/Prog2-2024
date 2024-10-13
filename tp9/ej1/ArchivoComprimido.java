@@ -7,7 +7,7 @@ public class ArchivoComprimido extends Carpeta{
     private int tasaCompresion;
 
     public ArchivoComprimido(String nombre, LocalDate fechaCreacion, int tasaCompresion) {
-        super(nombre, fechaCreacion);
+        super(nombre, fechaCreacion, LocalDate.now());
         elementos = new ArrayList<>();
         this.tasaCompresion = tasaCompresion;
     }
