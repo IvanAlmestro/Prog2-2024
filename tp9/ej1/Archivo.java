@@ -62,7 +62,7 @@ public class Archivo extends ElementoSA{
             ArrayList<ElementoSA> resultado = new ArrayList<>();
             
             if (f1.cumple(this))
-                resultado.add(this);
+                resultado.add(this);// Si el archivo cumple con el filtro, lo añade
             
             return resultado;
         

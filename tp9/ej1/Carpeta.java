@@ -19,9 +19,14 @@ public class Carpeta extends ElementoSA {
 
     public ArrayList<ElementoSA> buscar(filtro f1){
         ArrayList<ElementoSA> aux = new ArrayList<>();
- 
+
+        if (f1.cumple(this)) {
+            aux.add(this);
+        }
+
         for (ElementoSA elem : elementos) {
-           aux.addAll(elem.buscar(f1));
+            
+            aux.addAll(elem.buscar(f1));
         }
         return aux;
        
@@ -80,5 +85,11 @@ public class Carpeta extends ElementoSA {
     //ademas cuando agreguemos mas elementos
     //vamos a tener que recorrer y repetir codigo otra vez.
 
+    @Override
+    public String toString() {
+        return "Carpeta [fechaCreacion=" + fechaCreacion + ", fechaModificacion="
+                + fechaModificacion + ", getNombre()=" + getNombre() + ", getTamanio()=" + getTamanio() + "]";
+    }
 
+    
 }
