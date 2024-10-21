@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp9.ej1.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp8.ej1.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "tp7.ej3.Main",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp7.ej3.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp4.ej3.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp4.ej2.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp3.ej4.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Electrodomestico",
+            "request": "launch",
+            "mainClass": "tp1.Electrodomestico",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Persona",
+            "request": "launch",
+            "mainClass": "tp1.Persona",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Rectangulo",
+            "request": "launch",
+            "mainClass": "tp1.Rectangulo",
+            "projectName": "Programacion2_56465ef9"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutable",
+            "request": "launch",
+            "mainClass": "tp3.ej2.Ejecutable",
+            "projectName": "Programacion2_56465ef9"
+        }
+    ]
+}

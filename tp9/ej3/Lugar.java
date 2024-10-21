@@ -25,7 +25,7 @@ public class Lugar extends ElementoElectoral{
 	public double porcentajeVoto(Candidato c) {
 		int porcentaje = 0;
 		for (ElementoElectoral e:elementos)
-			porcentaje += e.porcentajeVoto(c) * e.getVotos()/this.cantidadVotos();
+			porcentaje += e.porcentajeVoto(c) * e.getVotos()/this.getVotos();
 		return porcentaje;
 	}
 

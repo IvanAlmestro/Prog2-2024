@@ -38,7 +38,7 @@ public abstract class ElementoSA {
         return fechaCreacion;
     }
     
-    public abstract ArrayList<ElementoSA> buscarOrdenado(filtro f1, Comparator comp);
+    public abstract ArrayList<ElementoSA> buscarOrdenado(filtro f1, Comparator<ElementoSA> comp);
     
     public abstract double getTamanio();
        

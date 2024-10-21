@@ -20,6 +20,8 @@ public class Carpeta extends ElementoSA {
 
     }
 
+
+
     public ArrayList<ElementoSA> buscar(filtro f1){
         ArrayList<ElementoSA> aux = new ArrayList<>();
 
@@ -37,7 +39,7 @@ public class Carpeta extends ElementoSA {
     }
 
     @Override
-    public ArrayList<ElementoSA> buscarOrdenado(filtro f1, Comparator comp) {
+    public ArrayList<ElementoSA> buscarOrdenado(filtro f1, Comparator<ElementoSA> comp) {
         ArrayList<ElementoSA> aux = new ArrayList<>();
         if(f1.cumple(this)){
             aux.add(this);
